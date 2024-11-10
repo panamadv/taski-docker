@@ -19,6 +19,8 @@ services:
     # Тут подключаем volume к backend
     volumes:
       - static:/backend_static
+    # ports:
+    #   - 8000:8000
   
   frontend:
     env_file: .env
